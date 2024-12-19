@@ -76,6 +76,34 @@ span {
     transition: 0.4s;
 }
 
+.conteudo .informacoes-container .buttons {
+    margin-top: 3rem;
+}
+
+.conteudo .informacoes-container .buttons .btn {
+    border: 1px solid #f5ab22;
+    background-color: transparent;
+    border-radius: 50rem;
+
+    color: #f3ecec;
+    font-size: 1rem;
+
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.conteudo .informacoes-container .buttons .btn:hover {
+    background-color: #f5ab22;
+    transition: 0.4s;
+}
+
+.text {
+    text-align: center;
+    color: #f3ecec;
+    
+    height: 100vh;
+    width: 100%;
+}
 footer {
     text-align: center;
     color: #f3ecec;
